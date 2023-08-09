@@ -30,12 +30,12 @@ Install the PHP dependencies:
 composer install
 ```
 
-### Install with docker & docker-compose (option B) 🐋
+### Install with docker & docker compose (option B) 🐋
 
 Build the docker image and install the PHP dependencies:
 
 ```
-docker-compose up -d
+docker compose up -d
 .docker/bin/composer install
 ```
 
